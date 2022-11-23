@@ -1,38 +1,320 @@
-.App {
-  text-align: center;
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+*{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section{
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul,li{
+    list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.static_header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.static_header img{
+    width: auto;
+    height: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_frame{
+    width: 100%;
+    max-width: 1046px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.header_nav{
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+}
+
+.header_nav ul{
+    display: flex;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.header_nav li{
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: #4e5968;
+    padding: 0px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.header_nav li:last-child{
+    color: #b0b8c1;
+}
+
+.blank{
+    width: 20px;
+}
+
+.header_nav span{
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 5px;
+    color: #b0b8c1;
+}
+
+.header_nav li:hover{
+    background-color: #e1e2e3;
+}
+
+.main_box_top{
+    margin-top: 60px;
+}
+
+.bg_frame{
+    height: 100vh;
+}
+
+.frame_1_text{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, white 0%, white 59px, rgba(255, 255, 255, 0) 100%);
+}
+
+.frame_1_text h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.frame_1_text button{
+    margin-right: 4px;
+    background-color: rgba(0, 12, 30, 0.8);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 11px 22px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.frame_1_text button:hover{
+    background-color: rgb(78, 89, 104);
+    color: rgb(255, 255, 255);
+}
+
+.frame_1_text2{
+    height: 600px;
+    text-align: center;
+    background-color: #f9fafb;
+}
+
+.frame_1_text2 p{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #191f28;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.bg_img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.frame_2{
+    padding: 250px 0 165px 0;
+}
+
+.frame_2_contentbox{
+    width: 100%;
+    max-width: 1046px;
+    height: 1272px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.frame2_content_1{
+    position: relative;
+    z-index: 1;
+}
+
+.frame2_content_1 h1{
+    color: #3182F6;
+    font-size: 28px;
+}
+
+.frame2_content_1 h2{
+    color: #191f28;
+    font-size: 50px;
+}
+
+.frame2_img_1{
+    width: 600px;
+    height: 936px;
+    position: absolute;
+    top: 0px;
+    right: -104px;
+}
+
+.frame2_img_2{
+    width: 600px;
+    height: 936px;
+    position: absolute;
+    bottom: 0px;
+    left: -104px;
+}
+
+.frame2_content_2{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(51, 61, 75);
+    position: absolute;
+    right: 30px;
+    bottom: 166px;
+}
+
+.phone_size{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.phone_size_inner{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: 57%;
+    height: auto;
+}
+
+.frame_3{
+    padding: 250px 0;
+}
+.footerFrame{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1046px;
+    margin: 0 auto;
+}
+
+.footerFrame ul{
+    list-style:none;
+    padding-left:0px;
+    font-size: 15px;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.footerFrame li{
+    padding-bottom: 3px;
+    width: 100%;
+    min-width: 170px;
+    height: 30px;
+    color: #6b7684;
+    cursor: pointer;
+}
+
+.footerFrame li:first-child{
+    width: 170px;
+    height: 35px;
+    color: #b0b8c1;
+    font-weight: 700;
+    cursor: auto;
+}
+
+.footerFrame li:first-child:hover{
+    text-decoration: none;
+}
+
+.footerFrame li:hover{
+    text-decoration: underline;
+}
+
+.footerText{
+    width: 100%;
+    color: #8b95a1;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+
+.footerText strong{
+    color: #b0b8c1;
+    font-size: 15px;
+}
+
+.footerbottomnav{
+    display: inline-grid;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 34px;
+    row-gap: 4px;
+    padding: 24px 0 30px;
+    font-size: 13px;
+    color: #6b7684;
+}
+
+.footerbottomnav div{
+    cursor: pointer;
+}
+
+.footerbottomnav strong{
+    color: #b0b8c1;
+    font-weight: 400;
+}
+
+.footerbottomnav div:hover{
+    text-decoration: underline;
+}
+
+.footerIcon{
+    width: 100%;
+    height: 38px;
+    display: flex;
+}
+
+.footerIcon i{
+    color: #6b7684;
+    font-size: 34px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.footerIcon i:hover{
+    color: #b0b8c1;
 }
