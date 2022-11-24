@@ -7,6 +7,7 @@ import Header from './component/Header';
 import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 
+
 class App extends Component {
   render() {
     return (

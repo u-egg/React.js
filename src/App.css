@@ -314,9 +314,6 @@ ul,li{
     margin-top: 50px;
 }
 
-
-
-
 .frame3_content_4{
     padding: 0 0 150px 38px;
     display: flex;
@@ -355,6 +352,93 @@ ul,li{
     width: 100%;
     max-width: 1046px;
     margin: 0 auto;
+}
+
+.frame_4{
+    height: calc(100vh - 60px);
+}
+
+.frame4_contentbox{
+    width: 100%;
+    max-width: 1046px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.frame4_content_1{
+    padding-top: 250px;
+    margin-bottom: 210px;
+}
+
+.frame4_content_1 h1{
+    color: #3182F6;
+    font-size: 28px;
+}
+
+.frame4_content_1 h2{
+    font-size: 50px;
+    color: #191f28;
+}
+
+.frame4_img{
+    position: absolute;
+    width: 600px;
+    height: 936px;
+    top: 16%;
+    left: 50%;
+}
+
+.frame4_img .phone{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    z-index: 1;
+}
+
+.frame4_img .phone_contents1{
+    position: absolute;
+    top: 11%;
+    left: 22%;
+    width: 56%;
+}
+
+.frame4_img .phone_contents2{
+    position: absolute;
+    top: 11%;
+    left: 22%;
+    width: 56%;
+}
+
+.frame4_img .phone_contents3{
+    position: absolute;
+    top: 11%;
+    left: 22%;
+    width: 56%;
+}
+
+.frame4_contentbox span{
+    font-size: 48px;
+    color: #333d4b;
+    display: block;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.frame4_contentbox .color_1{
+    color: #8b95a1;
+}
+
+.frame4_contentbox .color_2{
+    color: #d1d6d8;
+}
+
+.frame4_contentbox p{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333d4b;
 }
 
 .footerFrame ul{
