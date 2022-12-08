@@ -48,7 +48,7 @@ let nav_4 = [
 
 function Footer(props) {
   return (
-    <div>
+    <div className="footer">
       <div className='footerFrame'>
         <FooterNav
           text_0={nav_1[0]}
