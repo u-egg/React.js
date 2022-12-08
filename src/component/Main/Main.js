@@ -8,6 +8,7 @@ import Frame_6 from "./Frame_6.js";
 import Frame_7 from "./Frame_7.js";
 import Frame_8 from "./Frame_8.js";
 import Frame_9 from "./Frame_9.js";
+import Frame_10 from "./Frame_10.js";
 
 function Main(props) {
     return (
@@ -21,6 +22,7 @@ function Main(props) {
             <Frame_7/>
             <Frame_8/>
             <Frame_9/>
+            <Frame_10/>
         </div>
     );
 }
