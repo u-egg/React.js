@@ -110,7 +110,7 @@ ul,li{
 }
 
 .move_icon i{
-    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
+    animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;
 
 }
 @keyframes motion {
